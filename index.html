@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>image flex</title>
+	<link rel="stylesheet" type="text/css" href="flex.css">
+  <style>
+  .container{
+	display:flex;
+	flex-direction:r;
+
+}
+
+body{
+	background-color:#fff;
+	margin:0;
+	padding:0 20px;
+}
+header{
+	display:flex;
+	background-image:url('ava.jpeg');
+	background-size:cover;
+	width:275px;
+	height:350px;
+	flex-direction:column;
+	justify-content: flex-end;
+	align-items: center;
+	color:white;
+	padding:20px;
+}
+main{
+	display:flex;
+	background-image: url('https://images.unsplash.com/photo-1681296665977-a9071f741374?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwxM3x8fGVufDB8fHx8&auto=format&fit=crop&w=800&q=60');
+	
+	
+	flex-direction:column;
+	justify-content:flex-end;
+	align-items:flex-start;
+	color:#fff;
+
+}
+
+.bir, .eki, .uch, .ekinchi, .bashkar {
+	
+}
+
+.bashkar {
+	display: flex;
+	
+	justify-content: center;
+	width: 1000px;
+	height: 750px;
+
+}
+.bir {
+	
+	background-image:url('https://images.unsplash.com/photo-1581088625835-be7a7f354ff1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwxNnx8fGVufDB8fHx8&auto=format&fit=crop&w=800&q=60');
+	background-size: cover;
+
+
+
+	
+}
+
+.ekinchi {
+	display: flex;
+	flex-direction: column;
+
+}
+
+.eki {
+	background-image: url('https://images.unsplash.com/photo-1681785886872-6599ee1ed228?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwyMnx8fGVufDB8fHx8&auto=format&fit=crop&w=800&q=60');
+	flex:1;
+	background-size: cover;
+
+}
+
+.uch {
+	background-image: url('wheat.jpeg');
+	flex:1;
+}
+
+
+
+  </style>
+  
+</head>
+<body>
+	<div class="container">
+		
+	<header>
+		
+	</header>
+	<main>
+   		
+	</main>
+	</div>
+
+
+
+	<div class="bashkar">
+		
+		<div class="bir">
+			<h2>Eat 5 fruit and vegetables a day!</h2>
+			<p>Caring for your soul stars with caring for your body.Eat well.Live well. </p>
+		</div>
+			
+		<div class="ekinchi">
+
+			<div class="eki">
+				<h3>The Benefits</h3>
+   				<p>Clean wholesome eating is the first step 
+     			 to a new way living and being</p>
+			</div>
+
+			<div class="uch">
+				<h3>The Benefits</h3>
+   				<p>Clean wholesome eating is the first step 
+     			 to a new way living and being</p>
+			</div>
+		</div>
+
+	</div>
+	
+
+	
+
+
+</body>
+</html>
